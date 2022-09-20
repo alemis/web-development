@@ -1,0 +1,123 @@
+html{
+    height: 100vh;
+    background: url(R.jpeg);
+    background-size:cover;
+    background-repeat: no-repeat;
+}
+h1{
+    color: gold;
+    /* margin: 0px; */
+    /* padding: 0px; */
+}
+body{
+   
+    padding-top: 100px;
+}
+.logo{
+    height: 100px;
+    width: 100px;
+    border: 6px solid gold;
+    position: relative;
+    background-color:transparent;
+    border-radius: 50%;
+    text-align: center;
+    margin-left: 40%;
+    margin-top: 10px;
+    border-right: none;
+    border-left: none;
+    border-top-color: pink;
+    padding-bottom: 20px; 
+    margin-bottom: 8px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+ p{
+    color: red;
+    font-size: 1.3em;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bolder;
+}
+p i {
+    text-decoration: none;
+    color: rgb(247, 3, 186);
+    font-style: unset;
+    
+} 
+
+/* img{
+    height: 35%;
+    width: 30%;
+    border-radius: 50%;
+    margin-bottom: 15px;
+    background: cover;
+    
+    
+} */
+div{
+
+    /* align-items: center; */
+    text-align: center;
+    padding-top: 30px;
+    height: 450px;
+    width: 500px;
+    background: linear-Gradient(to left,rgba(10, 10, 10, 0.5),rgba(71, 34, 34, 0.9));
+    margin: 0 auto;
+    border-radius: 25px;
+    box-sizing: border-box;
+    transition: all 0.5s;
+    z-index: 6;
+    
+}
+div:hover{
+    background-color:rgba(10, 10, 10, 0.5) ;
+    /* height: 455px;
+    width:510px ; */
+}
+label{
+    color: gold;
+    font-size: 1.4em;
+    /* margin-left: 10px; */
+
+}
+input{
+    background-color: rgba(10, 165, 4, 0.5);
+    border-radius: 2em;
+    border:none ;
+    width: 200px;
+    height: 30px;
+    text-align: center;
+    color: white;
+    margin: 5px;
+    
+}
+button{
+    width: 150px;
+    height: 25px;
+    background-color:gold;
+    opacity: 0.7;
+    border:none ;
+    color:white;
+    font-size: 1.25em;
+    border-radius: 30px;
+}
+hr{
+    height: 4px;
+    background-color: aliceblue;
+    width: 50%;
+    margin: 0 auto;
+    
+}
+.fast {
+    margin-top: 10px;
+}
+a{
+    text-decoration: none;
+    color:white;
+    padding: 10px;
+    margin-bottom: 20px;
+    letter-spacing: 5px;
+    margin-left: 20px;
+
+}
